@@ -6,4 +6,5 @@ $('#list-item').on('click',function(e){
   
 $(document).ready(function() {
 	$('#myModal').modal();
+    $("#content-main").load( "web/main.html" );
 });
